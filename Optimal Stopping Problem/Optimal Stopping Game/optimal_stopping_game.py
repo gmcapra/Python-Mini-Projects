@@ -14,10 +14,9 @@ To allow users to try their hand at an interactive version of the optimal stoppi
 	- at this point, all numbers are revealed and the result is displayed
 
 In simulations of the optimal stopping problem, it has been observed that the best strategy
-is to view roughly 37% of the numbers, and then choosing the next number that is greater than
+is to view roughly 37% of the numbers and to then choose the next number that is greater than
 all previously observed values.
 
-This script is created in an effort to better understand the optimal stopping problem.
 -----------------------------------------------------------------------------------------------
 To play the game, simply run this script from the command line and follow the instructions.
 -----------------------------------------------------------------------------------------------
@@ -86,7 +85,7 @@ user_stopping_index = 0
 print(list_to_show)
 print('\n')
 
-reveal = input("Press any key to reveal the first number: ")
+reveal = input("Press ENTER to reveal the first number: ")
 while reveal.lower() != "stop" and current_index != n_to_gen:
 	list_to_show[current_index] = num_list[current_index]
 	user_stopping_choice = list_to_show[current_index]
@@ -94,7 +93,7 @@ while reveal.lower() != "stop" and current_index != n_to_gen:
 	current_index +=1
 	print(list_to_show)
 	print('\n')
-	reveal = input("Press any key to reveal the next number, or type 'STOP' if satisfied: ")
+	reveal = input("Press ENTER to reveal the next number, or type 'STOP' if satisfied: ")
 print('\n')
 
 """
