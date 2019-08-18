@@ -9,14 +9,13 @@ The purpose of this script is:
 To allow users to try their hand at an interactive version of the optimal stopping problem: 
 	- a series of random numbers is generated
 	- numbers could fall between 1 and 10,000 (the actual range will be different each time)
-	- the user starts by revealing one number and gets to continue revealing
-		numbers until they believe they have reached greatest value in the set
-	- at this point, all numbers are revealed and the result is displayed
+	- begin by revealing one number and then continue revealing the next
+		numbers until you believe you have reached greatest value in the set
+	- the goal is to stop at the greatest number
 
-In simulations of the optimal stopping problem, it has been observed that the best strategy
+In simulations of the optimal stopping problem, the strategy for the greatest chance of success
 is to view roughly 37% of the numbers and to then choose the next number that is greater than
 all previously observed values.
-
 -----------------------------------------------------------------------------------------------
 To play the game, simply run this script from the command line and follow the instructions.
 -----------------------------------------------------------------------------------------------
