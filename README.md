@@ -1,2 +1,2 @@
 # Python Mini Projects
-Contains mini projects that explore theory or recreate theoretical concepts in the form of games to build understanding. Scripts can be run directly from the terminal.
+For mini projects that recreate theoretical concepts in the form of games to build understanding.
